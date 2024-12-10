@@ -1,7 +1,9 @@
+//ASYNCHRONOUS
 // console.log("hello");
 // setTimeout( ()=>console.log("hi"),5000);
 // console.log("world");
 
+//SYNCHRONOUS
 // console.log("hello");
 // alert("hi");
 // console.log("world");
@@ -27,6 +29,7 @@
 // let g=d(10,20);
 // console.log(g);
 
+
 // READFILE
 // let fs = require("fs")
 // console.log("hello");
@@ -34,7 +37,7 @@
 // console.log(readsync);
 // console.log("world");
        
-
+//HTTP MODULE
 // let http=require("http");
 // let server=http.createServer((req,res)=>
 //      {
@@ -45,3 +48,16 @@
 // server.listen(port,"localhost",()=> console.log(`Server is active on localhost: ${port}`)
 // );
 
+
+
+//EXPRESSS
+// let express=require("express");
+// let app=express();
+// app.get("/college",(req,res)=>
+//     {
+//     console.log(req.url);
+//     res.status(500);
+//     res.send(req.url);
+//   });
+// let port=5001;
+// app.listen(port,"localhost",()=> console.log(`Server is active on LocalHost :${port}`));
